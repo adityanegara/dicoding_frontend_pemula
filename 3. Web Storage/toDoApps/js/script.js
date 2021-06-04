@@ -13,9 +13,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("ondatasaved", () => {
-    console.log("Data berhasil di simpan.");
-});
-
-document.addEventListener("ondataloaded", () => {
+    console.log("Data berhasil disimpan.");
+ });
+ document.addEventListener("ondataloaded", () => {
     refreshDataFromTodos();
-});
+ });
